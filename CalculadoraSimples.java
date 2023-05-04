@@ -22,7 +22,19 @@ public class CalculadoraSimples{
         op = entrada.nextInt();
 
         if(op == 1){
-            System.out.println("n\t\t\t -- Soma");
+            
+            //Ana Clara
+            //Entrada
+            system.out.println("informe N1:");
+            n1 = input.nextInt(); 
+            system.out.println("Informe N2:");
+            n2 = input.nextInt();
+            //Processamento
+            total = n1 + n2;
+            // Saída 
+            system.out.printf("%d + %d = %d", n1,n2,total);
+            
+             System.out.println("n\t\t\t -- Soma");
             } else if (op == 2){
                 System.out.println("\n\t\t\t -- Subtração --\n");
             } else if(op == 3){ 
